@@ -3,7 +3,7 @@ Feature: Search for an Album by Name
   I want to log in and search for an album by name
   So that I can validate that the correct results appear
 
-  Scenario: Login and search for album by name and user by email
+  Scenario: Login and search for album by name 
     Given I am on the login page
     When I enter "charlynmbugua@gmail.com" as email
     And I enter "admin@1234" as password
