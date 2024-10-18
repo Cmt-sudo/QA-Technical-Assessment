@@ -1,0 +1,66 @@
+/* src/pages/PhotoPage.css */
+
+.photo-page {
+  text-align: center; /* Center text */
+  margin-top: 50px; /* Margin at the top */
+}
+.nav-buttons {
+  margin-bottom: 20px; /* Space below the navigation buttons */
+}
+
+.nav-buttons button {
+  margin: 0 10px; /* Space between buttons */
+  padding: 10px 20px; /* Padding inside buttons */
+  font-size: 16px; /* Font size for buttons */
+  color: white; /* Text color */
+  background-color: #007bff; /* Button background color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.nav-buttons button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+.search-input {
+  width: 300px; /* Width of the search input */
+  padding: 10px; /* Padding inside the input */
+  margin-bottom: 20px; /* Space below the input */
+  border: 1px solid #ccc; /* Border around the input */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size for input text */
+}
+
+.photo-grid {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between items */
+  justify-items: center; /* Center items horizontally */
+  padding: 20px; /* Padding around the grid */
+}
+
+.photo-card {
+  background-color: #f9f9f9; /* Card background color */
+  border: 1px solid #ccc; /* Card border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px; /* Padding inside the card */
+  width: 200px; /* Fixed width */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.photo-card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.photo-card img {
+  border-radius: 10px; /* Rounded corners for images */
+  width: 100%; /* Full width of the card */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.photo-card h2 {
+  margin-top: 10px; /* Space between image and title */
+  font-size: 14px; /* Title font size */
+}
+
